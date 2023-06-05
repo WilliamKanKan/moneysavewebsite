@@ -1,0 +1,5 @@
+com\money\controller\LoginController.class
+com\money\service\UserService.class
+com\money\entity\UserBean.class
+com\money\MoneySaveApplication.class
+com\money\mapper\UserMapper.class
