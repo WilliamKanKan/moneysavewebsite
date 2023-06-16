@@ -14,7 +14,7 @@ public class UserLoginService {
         return userLoginMapper.findByUsernameAndPassword(username,password);
     }
 
-    public void Insert(String username, String password, String email) {
+    public void userRegister(String username, String password, String email) {
         UserLoginBean user = new UserLoginBean();
         user.setUsername(username);
         user.setPassword(password);

@@ -5,6 +5,6 @@
     <file url="PROJECT" dialect="MySQL" />
   </component>
   <component name="SqlResolveMappings">
-    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;4e1ce6cf-3998-4e97-924a-56ce472b6369&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;schema&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@qname&quot;:&quot;information_schema&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;mysql&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;performance_schema&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;sys&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;user&quot;      }     }    }   }  } }}" />
+    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;4e1ce6cf-3998-4e97-924a-56ce472b6369&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;schema&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@qname&quot;:&quot;user&quot;      }     }    }   }  } }}" />
   </component>
 </project>
