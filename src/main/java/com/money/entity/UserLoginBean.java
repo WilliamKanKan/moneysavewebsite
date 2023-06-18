@@ -1,12 +1,16 @@
 package com.money.entity;
 
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableName;
 
+import java.io.Serializable;
+@TableName("users")
 public class UserLoginBean implements Serializable {
 
     private Integer id;
     private String username;
     private String password;
+    @TableField(exist = false)
     private String confirmPassword;
     private String email;
     private String description;

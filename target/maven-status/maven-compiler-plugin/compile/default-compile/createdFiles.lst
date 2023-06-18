@@ -1,5 +1,0 @@
-com\money\controller\LoginController.class
-com\money\mapper\UserLoginMapper.class
-com\money\MoneySaveApplication.class
-com\money\entity\UserLoginBean.class
-com\money\service\UserLoginService.class

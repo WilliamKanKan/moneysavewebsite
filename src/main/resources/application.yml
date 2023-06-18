@@ -7,6 +7,10 @@ spring:
     username: root
     password: admink
     driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
 
   application:
     name: MoneySaveApplication
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
