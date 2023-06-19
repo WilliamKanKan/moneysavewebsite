@@ -4,10 +4,14 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
+
 import java.io.Serializable;
+
 @Data
 @TableName("users")
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserLoginBean implements Serializable {
     @TableId(value = "id",type = IdType.AUTO)
     private Integer id;
@@ -19,6 +23,6 @@ public class UserLoginBean implements Serializable {
     private String description;
     private Integer status;
     private Integer gender;
-    private Integer createTime;
+    private Long createTime;
 }
 
